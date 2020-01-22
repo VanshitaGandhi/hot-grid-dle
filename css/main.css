@@ -26,3 +26,17 @@ html {
 body {
   margin: 0;
 }
+
+figure {
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: .5rem;
+  left: 1rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  max-width: 15em;
+}
